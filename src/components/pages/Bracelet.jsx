@@ -106,7 +106,7 @@ const Bracelet = () => {
                             {images.map((item, index) => (
                                 <div key={index} className="px-4 py-4 w-full transition-transform duration-500 hover:scale-105  hover:shadow-2xl rounded-lg">
                                     <div className="relative h-48 rounded overflow-hidden">
-                                    <img
+                                        <img
                                             alt="ecommerce"
                                             className="w-full h-[200px] object-cover block"
                                             src={item.src}
