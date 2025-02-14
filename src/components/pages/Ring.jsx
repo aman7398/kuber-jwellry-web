@@ -75,8 +75,8 @@ const Ring = () => {
 
                 {/* Background Image Section */}
                 <div className="text-gray-600 body-font w-full shadow-2xl transition-transform  
-                bg-contain bg-no-repeat bg-center">
-                    <img src={ringbging} className="w-full lg:min-[300px] md:min-h-[80vh]" alt="firs-img" />
+               ">
+                    <img src={ringbging} className="w-full lg:min-[200px] md:min-h-[20vh] h-[350px] bg-contain bg-no-repeat bg-center" alt="firs-img" />
                 </div>
 
                 {/* ✅ Left Side Accordion + Right Side Rings */}

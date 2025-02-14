@@ -89,7 +89,7 @@ const Ankle = () => {
                 {/* Background Image Section */}
                 <div className="text-gray-600 body-font w-full shadow-2xl transition-transform  
                 bg-cover bg-center">
-                    <img src={ankleing} className="w-full md:min-h-[200px] lg:min-[300px] md:min-h-[80vh]" alt="" />
+                    <img src={ankleing} className="w-full lg:min-[200px] md:min-h-[20vh] h-[350px] bg-contain bg-no-repeat bg-center" alt="" />
 
                 </div>
 
