@@ -15,6 +15,7 @@ import Footer from '../../footer/Footer'
 import Header from '../../Header'
 import Navbar from '../../navbar/Navbar'
 import Review from '../../Review'
+import Contact from '../Contact'
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <MainHeader />
             <Catogeryshopheading />
             <Collection />
+            <Contact />
 
             <Service />
             <TrendyCollection />

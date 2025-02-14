@@ -9,7 +9,19 @@ import contact from '../assets/Home/contact.svg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [SearchQuery, setSearchQuery] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
 
+    const handleSearch = (event) => {
+        setSearchQuery(event.target.value);
+        // console.log("searching for:", event.target.value);
+    };
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            setSearchResults(true);
+
+        }
+    };
     return (
         <header className="bg-black text-white p-4 w-full top-0 left-0 shadow-lg hidden md:block">
             <div className="flex items-center justify-between px-4 md:px-16">
@@ -25,6 +37,9 @@ const Navbar = () => {
                     <Search className="absolute right-3 w-5 h-5 text-black hover:text-gray-500  " />
                     <input
                         type="text"
+                        value={SearchQuery}
+                        onChange={handleSearch}
+                        onKeyDown={handleKeyDown}
                         placeholder="Search for Gold Jewellery, Diamond Jewellery and more.."
                         className="w-full p-2 pr-10 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 shadow-md"
                     />

@@ -19,7 +19,7 @@ const Navbar = () => {
                     </Link>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex lg:space-x-14 text-lg px-56 md:font-montserrat sm:font-montserrat font-montserrat md:w-full md:justify-center md:space-x-6">
+                    <ul className="hidden md:flex lg:space-x-12 text-lg px-56 md:font-montserrat sm:font-montserrat font-montserrat md:w-full md:justify-center md:space-x-6">
                         <li><Link to="/" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Home</Link></li>
                         <li><Link to="/Nacklece" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Necklace</Link></li>
                         <li><Link to="/Bracelet" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Bracelet</Link></li>
@@ -27,6 +27,7 @@ const Navbar = () => {
                         <li><Link to="/Earrings" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Pendant</Link></li>
                         <li><Link to="/Ankle" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Ankle Bracelets</Link></li>
                         <li><Link to="/Allpages" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">All</Link></li>
+                        <li><Link to="/Contact" className="hover:text-yellow-500 relative after:block after:w-0 after:h-[2px] after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full">Contact Us</Link></li>
                     </ul>
 
                     {/* Icons Section */}
@@ -47,6 +48,7 @@ const Navbar = () => {
                         <li><Link to="/Earrings" className="hover:text-yellow-500">Pendant</Link></li> <hr className="border-gray-400 w-full" />
                         <li><Link to="/Ankle" className="hover:text-yellow-500">Ankle Bracelets</Link></li> <hr className="border-gray-400 w-full" />
                         <li><Link to="/Allpages" className="hover:text-yellow-500">All</Link></li> <hr className="border-gray-400 w-full" />
+                        <li><Link to="/Contact" className="hover:text-yellow-500">Contact Us</Link></li> <hr className="border-gray-400 w-full" />
                     </ul>
 
                     {/* Mobile Icons Section */}
