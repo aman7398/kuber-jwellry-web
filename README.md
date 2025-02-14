@@ -1,8 +1,16 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Kuber Jewelry Web – A Stunning Online Jewelry Store 💎
 
-Currently, two official plugins are available:
+"Kuber Jewelry Web" is a beautifully crafted eCommerce website for premium jewelry shopping. Built with React, Tailwind CSS, this project delivers a seamless shopping experience with an elegant UI and smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+🌟 Key Features:
+✅ Modern & Responsive UI – Fully optimized for all devices 📱💻
+✅ Statically Product Showcase – Display stunning jewelry collections ✨
+✅ Fast & Optimized – Built with performance in mind ⚡
+✅ Smooth Animations – Enhancing user engagement with Framer Motion 🎭
+
+🛠️ Tech Stack:
+Frontend: React.js + Tailwind CSS
+Animations: Framer Motion.
